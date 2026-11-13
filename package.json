@@ -1,0 +1,24 @@
+{
+  "name": "api-laboratorio-ensaios",
+  "version": "1.0.0",
+  "description": "API para laboratório de ensaios",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "api",
+    "laboratorio",
+    "ensaios",
+    "express",
+    "mysql"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
